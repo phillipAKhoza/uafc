@@ -1,0 +1,151 @@
+@media only screen and (min-width: 10px) {
+    .sticky {
+        height: auto;
+        width: 100%;
+        
+    }
+    .featured-logo{
+      width: 150px;
+      height: auto;
+    }
+    ul li a.pk-light{
+        color: #ffffff;
+        font-weight: bold;
+      }
+    .site-main{
+      overflow-x: hidden;
+    }
+    ul.company{
+      padding: 0 0 20px 0;
+    }
+    .company li{
+      padding: 0 0 10px 0;
+    }
+    li span{
+      font-weight: bold;
+    }
+    .experience-container{
+      padding: 20px 0 0 0;
+    }
+    .eatured-paragraph{
+      padding: 10px 0 0 0;
+    }
+    section.info.container{
+      margin-top:60px;
+    }
+    .featured-slipter-title{
+        margin-top: 80px;
+    }
+    .featured-slipter-info{
+      margin-top: 60px;
+    }
+    .btn.download{
+      font-size: 12px;
+    }
+    .cert-img-2{
+      width: 100%;
+    }
+    .company{
+      text-align: center;
+    }
+    .certification{
+      text-align: center;
+    }
+    .cert-img{
+      margin: auto;
+    }
+    .menu{
+      width: 40px;
+      height: 40px;
+      padding: 0 8px 8px 0;
+    }
+
+}
+@media only screen and (min-width: 768px){
+  .featured-logo{
+    width: 200px;
+    height: 50px;
+  }
+  .company {
+    display: flex;
+    /* margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px; */
+  }
+  .company li{
+    padding: 0 20px 0 0px;
+  }
+  .certification{
+    display: flex;
+    padding-bottom: 20px;
+  }
+  .cert{
+    padding: 30px 0 0 0;
+  }
+  .cert-text{
+    padding: 0 0 0 20px;
+  }
+  .company{
+    text-align: left;
+  }
+  .certification{
+    text-align: left;
+  }
+  .cert-img{
+    margin: 0;
+  }
+
+}
+@media only screen and (min-width: 992px) {
+    .sticky {
+        position: fixed;
+        height: 100%;
+        width: 450px;
+        
+    }
+    ul li a.pk-light{
+        color: #000000;
+        font-weight: bold;
+      }
+      section.title.container{
+        margin-top:300px;
+      }
+      section.info.container{
+        margin-top:100px;
+      }
+      .featured-slipter-title{
+          margin-top: 150px;
+      }
+      .featured-slipter-info{
+        margin-top: 100px;
+      }
+}
+@media only screen and (min-width: 1150px) {
+    .sticky {
+        position: fixed;
+        height: auto;
+        width: 500px;
+        
+    }
+    .featured-title
+    {
+        font-size: 60px;
+        font-weight: 700;
+    }
+}
+@media only screen and (min-width: 1300px) {
+    .sticky {
+        position: fixed;
+        height: 1024px;
+        width: 595px;
+        padding: 0;
+        left: -5px;
+        
+    }
+    .main-container{
+      max-width: 1445px;
+      margin: auto !important;
+    }  
+}
